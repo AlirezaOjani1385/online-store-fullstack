@@ -1,0 +1,15 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Scripts: Ensure correct line endings for Linux and Windows executable scripts
+/mvnw text eol=lf
+*.cmd text eol=crlf
+*.sh text eol=lf
+
+# Binary files: Ensure binaries are not modified
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
